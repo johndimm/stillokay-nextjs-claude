@@ -166,3 +166,140 @@ a.secondary {
     filter: invert();
   }
 }
+
+.home {
+  min-height: calc(100vh - 180px);
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.heroContent {
+  flex: 2;
+  min-width: 300px;
+}
+
+.heroContent h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
+
+.heroContent p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.heroActions {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+}
+
+.loginCard {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.loginCard h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.formControl {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+}
+
+.formControl:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(110, 146, 118, 0.2);
+}
+
+.button {
+  display: inline-block;
+  width: 100%;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+}
+
+.ctaButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cta {
+  display: block;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.cta:hover {
+  background-color: var(--secondary-color);
+}
+
+.promoTag {
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  background-color: #ffcc00;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: rotate(-5deg);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+  
+  .heroContent,
+  .heroActions {
+    flex: 1;
+    width: 100%;
+  }
+}

@@ -1,0 +1,300 @@
+Still
+Okay
+If We Don’t Hear From You, We Worry
+Home
+Contact Us
+How It Works
+Pricing
+About Us
+Still OkayTM makes sure that someone finds out if you’re not okay.  
+
+Once you subscribe to our service, you’ll check in every day at a time that’s convenient for you.
+
+If you just forgot your daily check in, you’ll easily be able to prevent further action.
+
+If you’re not able to check in for some reason, we start notifying your contacts that there might be something wrong.
+
+Our service was created for those who live alone or have an irregular schedule (like college students).
+
+You can purchase a subscription for yourself or as a gift for someone you care about.
+Daily Check-in
+(expands downward so username and password can be entered on this page)
+Create Account
+Manage Account
+30 Day Free Trial!
+
+Still
+Okay
+If We Don’t Hear From You, We Worry
+Home
+Contact Us
+How It Works
+Pricing
+About Us
+Check In - <today’s day and date>
+Daily WordPress Blog Entry
+
+Still Okay
+Manage Account
+comment
+
+Still
+Okay
+If We Don’t Hear From You, We Worry
+Home
+Contact Us
+How It Works
+Pricing
+About Us
+Create Account
+Create an account and begin your own subscription today!
+
+Get 30 days of free check-in service.
+
+
+-or-
+
+
+Create an account and purchase a subscription for someone else!
+Get 30 days free on the gift subscription.
+
+First Name
+Last Name
+Phone Number
+Email Address valid email required
+Username
+Password  at least 8 characters
+Set Up Your Subscription Now
+Enter Your Subscriber’s Information Now
+3
+
+Still
+Okay
+If We Don’t Hear From You, We Worry
+Home
+Contact Us
+How It Works
+Pricing
+About Us
+Create Subscription
+First Name
+Last Name
+Phone Number
+Email Address
+Username
+Password
+Edit Account Information
+Address
+Continue
+Is This Your Check-in Time Zone?
+Choose Your Four-Hour Check-in Time Window 
+What Is This?
+Start Check-in Time Window
+End Check-in Time Window
+Pop-up explanation – Your check-in time window is the four-hour time period when you check in each day 
+End calculated automatically +4 hours from start time 
+
+Still
+Okay
+If We Don’t Hear From You, We Worry
+Home
+Contact Us
+How It Works
+Pricing
+About Us
+Create Subscription
+Account Information
+Edit Account Information
+Continue
+Specify the days (if any) you do NOT want to check in.
+Note:  You can specify these later.
+Display days
+Display existing account information
+Calendar
+
+Still
+Okay
+If We Don’t Hear From You, We Worry
+Home
+Contact Us
+How It Works
+Pricing
+About Us
+Account Information
+Edit Account Information
+Continue
+Add Escalation Contacts
+These are the people who will be contacted if you do not check in.
+
+Note:  In the next step, you will choose when they would be contacted.
+Display existing account information
+Create Subscription
+First Name
+Last Name
+Phone Number
+Email Address
+All escalation contacts get validated, using the method you have specified, starting in 24 hours.  Validation just means that 
+we make an automated phone call to your contact and/or
+we send an email to your contact and/or
+we send a text message to your contact
+
+If we are unable to validate your contacts, we will notify you.
+
+If we cannot validate an escalation contact, it will be deleted.
+
+Subscriptions without at least one valid escalation contact will be deleted.
+Add Another Escalation Contact 
+add methods they can be contacted – phone, text, email
+
+Still
+Okay
+If We Don’t Hear From You, We Worry
+Home
+Contact Us
+How It Works
+Pricing
+About Us
+Account Information
+Edit Account Information
+Continue
+Define Escalations
+Display existing account information
+Create Subscription
+Escalation #1
+All escalation contacts get validated, starting in 24 hours.  Validation just means that 
+we make an automated phone call to your contact
+we send an email to your contact
+
+If we are unable to validate your contacts, we will notify you.
+
+If we cannot validate an escalation contact, it will be deleted.
+
+Subscriptions without at least one valid escalation contact will be deleted
+Display escalation contacts and enable them to be chosen
+Escalation Contact 
+(0-24 hours)
+hours after you miss your check-in 
+will be contacted by
+phone
+email
+text
+Define Another Escalation 
+
+Still
+Okay
+If We Don’t Hear From You, We Worry
+Home
+Contact Us
+How It Works
+Pricing
+About Us
+Account Information
+Edit Account Information
+Continue
+Billing Information
+Display existing account information
+Create Subscription
+Subscription Term
+You have a 30-day free subscription!
+
+Your credit card or checking account will not be charged unless you continue your subscription.  
+
+If your subscription has not been cancelled, at the end of your 30-day free subscription period, you will automatically be enrolled with a monthly subscription.
+
+If you would like to enroll in a longer subscription term automatically once your free subscription is over (assuming you want to continue!), please indicate that term.
+
+If we cannot validate an escalation contact, it will be deleted.
+
+Subscriptions without at least one valid escalation contact will be deleted
+Credit card or checking account data
+monthly ($10/month)
+six month subscription ($54.00)
+one year subscription ($96.00)
+
+Still
+Okay
+If We Don’t Hear From You, We Worry
+Home
+Contact Us
+How It Works
+Pricing
+About Us
+ Gift Subscriptions and Options
+Gift option
+Option to specify self (purchaser) as escalation
+They get notified if that escalation is changed or removed
+Protected Account option
+Escalation contact (purchaser) -cannot be deleted or edited
+Escalations can be added but purchaser escalation cannot be deleted or edited
+Vacations trigger notification to purchaser escalation contact
+
+Still
+Okay
+If We Don’t Hear From You, We Worry
+Home
+Contact Us
+How It Works
+Pricing
+About Us
+Change Your Account
+Edit account information
+Edit contacts
+Edit escalations
+Add/remove contacts (purchaser contact grayed out for protected accounts)
+Add/remove escalations (purchaser escalation grayed out for protected accounts)
+Specify vacation (display notice for protected accounts)
+Option for protected account
+Delete account/Stop service
+
+Still
+Okay
+If We Don’t Hear From You, We Worry
+Home
+Contact Us
+How It Works
+Pricing
+About Us
+How It Works
+Diagram of how it works concept (simple drawing with boxes and arrows)
+Explanatory text
+Alternative – stick figure video – keeps pressing the “Still Okay” button, days pass, sun comes up, goes down, moon up, down, etc. – then the figure falls on the ground, crosses in his eyes – then you see the phone ring, someone knocks at his door, looks through the window, comes in the door, he’s saved, hooray!
+
+Still
+Okay
+If We Don’t Hear From You, We Worry
+Home
+Contact Us
+How It Works
+Pricing
+About Us
+Pricing
+First 30 days free
+$10/month
+$54/six months
+$96/year
+
+Still
+Okay
+If We Don’t Hear From You, We Worry
+Home
+Contact Us
+How It Works
+Pricing
+About Us
+Contact Us
+Form for questions or complaints
+Option to email
+800 number
+Local address
+
+Still
+Okay
+If We Don’t Hear From You, We Worry
+Home
+Contact Us
+How It Works
+Pricing
+About Us
+About Us
+How this started (the idea for it)
+Some biographical information for us?

@@ -1,0 +1,101 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                  String               @id @default(uuid())
+  username            String               @unique
+  password            String
+  firstName           String
+  lastName            String
+  email               String               @unique
+  phoneNumber         String
+  address             String?
+  createdAt           DateTime             @default(now())
+  updatedAt           DateTime             @updatedAt
+  subscription        Subscription?
+  escalationContacts  EscalationContact[]
+  checkIns            CheckIn[]
+}
+
+model Subscription {
+  id                   String                @id @default(uuid())
+  userId               String                @unique
+  user                 User                  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  isActive             Boolean               @default(true)
+  startDate            DateTime              @default(now())
+  endDate              DateTime?
+  timeZone             String
+  checkInStartTime     String                // Format: HH:MM
+  checkInEndTime       String                // Format: HH:MM
+  excludedDays         String?               // JSON array of days
+  isProtectedAccount   Boolean               @default(false)
+  isPurchaserEscalation Boolean              @default(false)
+  purchaserContactId   String?
+  isGift               Boolean               @default(false)
+  trialEndsAt          DateTime?
+  subscriptionTerm     String?               // monthly, six_months, yearly
+  createdAt            DateTime              @default(now())
+  updatedAt            DateTime              @updatedAt
+  escalations          Escalation[]
+}
+
+model EscalationContact {
+  id                String       @id @default(uuid())
+  userId            String
+  user              User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  firstName         String
+  lastName          String
+  phoneNumber       String?
+  email             String?
+  canContactByPhone Boolean      @default(false)
+  canContactByEmail Boolean      @default(false)
+  canContactByText  Boolean      @default(false)
+  isValidated       Boolean      @default(false)
+  escalations       Escalation[]
+  createdAt         DateTime     @default(now())
+  updatedAt         DateTime     @updatedAt
+}
+
+model Escalation {
+  id                    String             @id @default(uuid())
+  subscriptionId        String
+  subscription          Subscription       @relation(fields: [subscriptionId], references: [id], onDelete: Cascade)
+  escalationContactId   String
+  escalationContact     EscalationContact  @relation(fields: [escalationContactId], references: [id], onDelete: Cascade)
+  hoursAfterMissedCheckIn Int
+  contactByPhone        Boolean            @default(false)
+  contactByEmail        Boolean            @default(false)
+  contactByText         Boolean            @default(false)
+  createdAt             DateTime           @default(now())
+  updatedAt             DateTime           @updatedAt
+}
+
+model CheckIn {
+  id           String    @id @default(uuid())
+  userId       String
+  user         User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  checkInTime  DateTime  @default(now())
+  createdAt    DateTime  @default(now())
+}
+
+model Vacation {
+  id            String    @id @default(uuid())
+  userId        String    @unique
+  startDate     DateTime
+  endDate       DateTime
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
